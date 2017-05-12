@@ -78,7 +78,7 @@
           <?php } ?>
         </div>
       </div>
-      <div class="col-sm-5"><?php echo $search; ?>
+      <div class="col-sm-5 hide"><?php echo $search; ?>
       </div>
       <div class="col-sm-3"><?php echo $cart; ?></div>
     </div>
@@ -86,7 +86,7 @@
 </header>
 <?php if ($categories) { ?>
 <div class="container">
-  <nav id="menu" class="navbar">
+  <nav id="menu" class="navbar hide">
     <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
       <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
     </div>
