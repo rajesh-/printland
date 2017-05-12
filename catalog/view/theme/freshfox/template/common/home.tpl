@@ -31,9 +31,9 @@
 		<link rel="stylesheet" href="catalog/view/theme/freshfox/inc/owl-carousel/css/owl.theme.css">
 
 		<!-- Theme CSS -->
-        <link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="catalog/view/theme/freshfox/css/reset.css">
+		<link rel="stylesheet" href="catalog/view/theme/freshfox/css/style.css">
+		<link rel="stylesheet" href="catalog/view/theme/freshfox/css/mobile.css">
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="catalog/view/theme/freshfox/css/skin/cool-gray.css">
@@ -98,7 +98,7 @@
             
             
         	<!-- Begin text carousel intro section -->
-			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(http://localhost:8081/freshfox/catalog/view/theme/freshfox/img/slider-bg.jpg);">
+			<section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(http://192.168.1.226/freshfox/catalog/view/theme/freshfox/img/slider-bg.jpg);">
 				
 				<div class="container">
 					<div class="caption text-center text-white" data-stellar-ratio="0.7">
@@ -375,7 +375,7 @@
               
             <!-- Begin testimonials -->
             <section id="testimonial-section">
-                <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/testimonial-bg.jpg);">
+                <div id="testimonial-trigger" class="testimonial text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(catalog/view/theme/freshfox/img/testimonial-bg.jpg);">
                     <div class="cover"></div>
                     <!-- Begin page header-->
                     <div class="page-header-wrapper">
@@ -455,7 +455,7 @@
                                         <div class="row"  id="portfolio">
                                             <div class="col-xs-12 col-sm-4 appsDevelopment">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p1.jpg" alt="title"/>
+                                                    <img src="catalog/view/theme/freshfox/img/portfolio/p1.jpg" alt="title"/>
                                                     <div>
                                                         <a href="#">Skull Awesome</a>
                                                         <span>Subtitle</span>
@@ -464,7 +464,7 @@
                                             </div>
                                             <div class="col-xs-12 col-sm-4 GraphicDesign">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p2.jpg" alt="title"/>
+                                                    <img src="catalog/view/theme/freshfox/img/portfolio/p2.jpg" alt="title"/>
                                                     <div>
                                                         <a href="#">Photo Frame</a>
                                                         <span>Subtitle</span>
@@ -473,7 +473,7 @@
                                             </div>
                                             <div class="col-xs-12 col-sm-4 responsive">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p3.jpg" alt="title"/>
+                                                    <img src="catalog/view/theme/freshfox/img/portfolio/p3.jpg" alt="title"/>
                                                     <div>
                                                         <a href="#">Hand Shots</a>
                                                         <span>Subtitle</span>
@@ -482,7 +482,7 @@
                                             </div>
                                             <div class="col-xs-12 col-sm-4 webDesign websites">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p4.jpg" alt="title"/>
+                                                    <img src="catalog/view/theme/freshfox/img/portfolio/p4.jpg" alt="title"/>
                                                     <div>
                                                         <a href="#">Night Abstract</a>
                                                         <span>Subtitle</span>
@@ -491,7 +491,7 @@
                                             </div>
                                             <div class="col-xs-12 col-sm-4 appsDevelopment websites">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img//portfolio/p5.jpg" alt="title"/>
+                                                    <img src="catalog/view/theme/freshfox/img//portfolio/p5.jpg" alt="title"/>
                                                     <div>
                                                         <a href="#">Joy of Independence</a>
                                                         <span>Subtitle</span>
@@ -500,7 +500,7 @@
                                             </div>
                                             <div class="col-xs-12 col-sm-4 GraphicDesign">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p6.jpg" alt="title"/>
+                                                    <img src="catalog/view/theme/freshfox/img/portfolio/p6.jpg" alt="title"/>
                                                     <div>
                                                         <a href="#">Night Crawlers</a>
                                                         <span>Subtitle</span>
@@ -509,7 +509,7 @@
                                             </div>
                                             <div class="col-xs-12 col-sm-4 responsive">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p7.jpg" alt="title"/>
+                                                    <img src="catalog/view/theme/freshfox/img/portfolio/p7.jpg" alt="title"/>
                                                     <div>
                                                         <a href="#">Last Motel</a>
                                                         <span>Subtitle</span>
@@ -518,7 +518,7 @@
                                             </div>
                                             <div class="col-xs-12 col-sm-4 GraphicDesign">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p8.jpg" alt="title"/>
+                                                    <img src="catalog/view/theme/freshfox/img/portfolio/p8.jpg" alt="title"/>
                                                     <div>
                                                         <a href="#">Dirk Road</a>
                                                         <span>Subtitle</span>
@@ -527,7 +527,7 @@
                                             </div>
                                             <div class="col-xs-12 col-sm-4 websites">
                                                 <div class="portfolio_single_content">
-                                                    <img src="img/portfolio/p9.jpg" alt="title"/>
+                                                    <img src="catalog/view/theme/freshfox/img/portfolio/p9.jpg" alt="title"/>
                                                     <div>
                                                         <a href="#">Old is Gold</a>
                                                         <span>Subtitle</span>
@@ -550,7 +550,7 @@
                 
             <!-- Begin counter up -->
             <section id="counter-section">                					
-				<div id="counter-up-trigger" class="counter-up text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/counter-bg.jpg);">
+				<div id="counter-up-trigger" class="counter-up text-white parallax" data-stellar-background-ratio="0.5" style="background-image: url(catalog/view/theme/freshfox/img/counter-bg.jpg);">
 					<div class="cover"></div>
                     <!-- Begin page header-->
                     <div class="page-header-wrapper">
@@ -633,7 +633,7 @@
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
-                                                <img src="img/team/1.jpg" alt="title"/>
+                                                <img src="catalog/view/theme/freshfox/img/team/1.jpg" alt="title"/>
                                                 <div class="team-hover text-center">
                                                     <i class="fa fa-male"></i>
                                                     <p>John Doe</p>
@@ -648,7 +648,7 @@
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
-                                                <img src="img/team/1.jpg" alt="title"/>
+                                                <img src="catalog/view/theme/freshfox/img/team/1.jpg" alt="title"/>
                                                 <div class="team-hover text-center">
                                                     <i class="fa fa-female"></i>
                                                     <p>Jane Doe</p>
@@ -663,7 +663,7 @@
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
-                                                <img src="img/team/1.jpg" alt="title"/>
+                                                <img src="catalog/view/theme/freshfox/img/team/1.jpg" alt="title"/>
                                                 <div class="team-hover text-center">
                                                     <i class="fa fa-male"></i>
                                                     <p>John Doe</p>
@@ -679,7 +679,7 @@
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
-                                                <img src="img/team/1.jpg" alt="title"/>
+                                                <img src="catalog/view/theme/freshfox/img/team/1.jpg" alt="title"/>
                                                 <div class="team-hover text-center">
                                                     <i class="fa fa-male"></i>
                                                     <p>John Doe</p>
@@ -694,7 +694,7 @@
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
-                                                <img src="img/team/1.jpg" alt="title"/>
+                                                <img src="catalog/view/theme/freshfox/img/team/1.jpg" alt="title"/>
                                                 <div class="team-hover text-center">
                                                     <i class="fa fa-male"></i>
                                                     <p>John Doe</p>
@@ -709,7 +709,7 @@
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
-                                                <img src="img/team/1.jpg" alt="title"/>
+                                                <img src="catalog/view/theme/freshfox/img/team/1.jpg" alt="title"/>
                                                 <div class="team-hover text-center">
                                                     <i class="fa fa-male"></i>
                                                     <p>John Doe</p>
@@ -724,7 +724,7 @@
                                     <div class="team-item">
                                         <div class="team-triangle">
                                             <div class="content">
-                                                <img src="img/team/1.jpg" alt="title"/>
+                                                <img src="catalog/view/theme/freshfox/img/team/1.jpg" alt="title"/>
                                                 <div class="team-hover text-center">
                                                     <i class="fa fa-female"></i>
                                                     <p>Jane Doe</p>
@@ -760,13 +760,13 @@
                 <!-- End page header-->
                 <div class="container">
                     <div id="owl-partners" class="owl-carousel">
-                        <img src="img/partners/1.png" alt="img">
-                        <img src="img/partners/2.png" alt="img">
-                        <img src="img/partners/3.png" alt="img">
-                        <img src="img/partners/4.png" alt="img">
-                        <img src="img/partners/5.png" alt="img">
-                        <img src="img/partners/6.png" alt="img">
-                        <img src="img/partners/7.png" alt="img">
+                        <img src="catalog/view/theme/freshfox/img/partners/1.png" alt="img">
+                        <img src="catalog/view/theme/freshfox/img/partners/2.png" alt="img">
+                        <img src="catalog/view/theme/freshfox/img/partners/3.png" alt="img">
+                        <img src="catalog/view/theme/freshfox/img/partners/4.png" alt="img">
+                        <img src="catalog/view/theme/freshfox/img/partners/5.png" alt="img">
+                        <img src="catalog/view/theme/freshfox/img/partners/6.png" alt="img">
+                        <img src="catalog/view/theme/freshfox/img/partners/7.png" alt="img">
                     </div>
                 </div>
             </section>
@@ -1058,20 +1058,20 @@
         
         
         <!-- Plugins JS -->
-		<script src="inc/jquery/jquery-1.11.1.min.js"></script>
-		<script src="inc/bootstrap/js/bootstrap.min.js"></script>
-		<script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
-		<script src="inc/stellar/js/jquery.stellar.min.js"></script>
-		<script src="inc/animations/js/wow.min.js"></script>
-        <script src="inc/waypoints.min.js"></script>
-		<script src="inc/isotope.pkgd.min.js"></script>
-		<script src="inc/classie.js"></script>
-		<script src="inc/jquery.easing.min.js"></script>
-		<script src="inc/jquery.counterup.min.js"></script>
-		<script src="inc/smoothscroll.js"></script>
+		<script src="catalog/view/theme/freshfox/inc/jquery/jquery-1.11.1.min.js"></script>
+		<script src="catalog/view/theme/freshfox/inc/bootstrap/js/bootstrap.min.js"></script>
+		<script src="catalog/view/theme/freshfox/inc/owl-carousel/js/owl.carousel.min.js"></script>
+		<script src="catalog/view/theme/freshfox/inc/stellar/js/jquery.stellar.min.js"></script>
+		<script src="catalog/view/theme/freshfox/inc/animations/js/wow.min.js"></script>
+        <script src="catalog/view/theme/freshfox/inc/waypoints.min.js"></script>
+		<script src="catalog/view/theme/freshfox/inc/isotope.pkgd.min.js"></script>
+		<script src="catalog/view/theme/freshfox/inc/classie.js"></script>
+		<script src="catalog/view/theme/freshfox/inc/jquery.easing.min.js"></script>
+		<script src="catalog/view/theme/freshfox/inc/jquery.counterup.min.js"></script>
+		<script src="catalog/view/theme/freshfox/inc/smoothscroll.js"></script>
 
 		<!-- Theme JS -->
-		<script src="js/theme.js"></script>
+		<script src="catalog/view/theme/freshfox/js/theme.js"></script>
 
     </body> 
         
