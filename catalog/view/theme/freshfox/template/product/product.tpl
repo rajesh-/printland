@@ -589,6 +589,30 @@ $(document).ready(function() {
 			enabled:true
 		}
 	});
+	var droplist ="";
+	//NeoScript
+	$("#product .form-group:eq(0) input").prop('checked', 'checked');
+	$("#product .form-group:eq(1) .radio").hide();
+	droplist+="<select class='customDropList form-control'>";
+
+	$("#product .form-group:eq(1) .radio").each(function(index){
+			console.log("index", $( this ).text());
+			droplist+="<option>" + $( this ).text() + "</option>";
+
+	});
+	droplist+="</select>";
+	
+
+	$("#product .form-group:eq(1)").append(droplist);
+	$(document).on('click', '.customDropList', function(e) {
+
+		//do whatever
+		var singleValues = $(".customDropList")[0].selectedIndex
+console.log(singleValues);	
+
+		$("#product .form-group:eq(1) .radio:eq("+ singleValues +") input").prop('checked', 'checked');
+
+		});
 });
 //--></script>
 <?php echo $footer; ?>
