@@ -82,9 +82,9 @@
                             <li><a class="page-scroll" href="body">Home</a></li>
                             <li><a class="page-scroll" href="#about-section">About</a></li>
                             <li><a class="page-scroll" href="#services-section">Our Story</a></li>
-                            <!-- <li><a class="page-scroll" href="#testimonial-section">Our Menu</a></li> -->
+                            <li><a class="page-scroll" href="#btn-section-for-menu">Our Menu</a></li>
                             <li><a class="page-scroll" href="#portfolio-section">How it Works</a></li>                            
-                            <li><a class="page-scroll" href="#counter-section">Subscriptions & Prices</a></li>
+                            <li><a class="page-scroll" href="#counter-section">Subscriptions</a></li>
                             <li><a class="page-scroll" href="#contact-section">Contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -210,7 +210,7 @@
 
             <section id="btn-section-for-menu">
                 <div class="page-header-wrapper" style="background-color: #363940;">
-                <button type="button" class="btn btn-default menu-btn">OurMenu<span class="openArrow"></span></button>
+                <button type="button" class="btn btn-default menu-btn">Our Menu<span class="openArrow"></span></button>
                 </div>
             </section>
                 

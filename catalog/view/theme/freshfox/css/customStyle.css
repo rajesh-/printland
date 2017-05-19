@@ -13,7 +13,7 @@
     position: absolute;
     left: 15%;
     right: 27%;
-    bottom: 40px;
+    bottom: 20px;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -35,9 +35,16 @@
 	/*background-color: #333333;*/
 	color: #fff;
 }
+#btn-section-for-menu  .page-header-wrapper{
+    text-align: center;
+        padding: 10px;
+}
 button.btn.btn-default.menu-btn {
-    width: 100%;
+    /*width: 100%;*/
     font-size: 20px;
+    border: 1px solid #fff;
+    background: #f68a3f;
+    border-radius: 5px!important;
 }
 .ourMenuBtn{
 	width: 22px;
