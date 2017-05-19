@@ -1,11 +1,11 @@
 <?php echo $header; ?>
 <div class="container">
-  <ul class="breadcrumb">
+  <ul class="breadcrumb hide">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
     <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
     <?php } ?>
   </ul>
-  <div class="row"><?php echo $column_left; ?>
+  <div class="row" style="margin-top: 20px;"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
     <?php $class = 'col-sm-6'; ?>
     <?php } elseif ($column_left || $column_right) { ?>
@@ -123,7 +123,7 @@
             <button type="button" data-toggle="tooltip" class="btn btn-default" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product_id; ?>');"><i class="fa fa-heart"></i></button>
             <button type="button" data-toggle="tooltip" class="btn btn-default" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product_id; ?>');"><i class="fa fa-exchange"></i></button>
           </div>
-          <h1><?php echo $heading_title; ?></h1>
+          <h1 style="margin-top: -5px;"><?php echo $heading_title; ?></h1>
           <ul class="list-unstyled hide">
             <?php if ($manufacturer) { ?>
             <li><?php echo $text_manufacturer; ?> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a></li>
@@ -608,11 +608,13 @@ $(document).ready(function() {
 
 		//do whatever
 		var singleValues = $(".customDropList")[0].selectedIndex
-console.log(singleValues);	
+	
 
 		$("#product .form-group:eq(1) .radio:eq("+ singleValues +") input").prop('checked', 'checked');
 
 		});
+
+	//NeoEnd
 });
 //--></script>
 <?php echo $footer; ?>

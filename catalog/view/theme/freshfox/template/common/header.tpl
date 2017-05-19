@@ -36,10 +36,16 @@
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
+<style type="text/css">
+  .customHeader{
+  background-color: #363940;
+}
+
+</style>
 </head>
 <body class="<?php echo $class; ?>">
-<nav id="top">
-  <div class="container">
+<nav id="top hide">
+  <div class="container hide">
     <?php echo $currency; ?>
     <?php echo $language; ?>
     <div id="top-links" class="nav pull-right">
@@ -66,10 +72,10 @@
     </div>
   </div>
 </nav>
-<header>
-  <div class="container">
+<header class="customHeader">
+  <div class="container ">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-4" style="margin-top: 10px;">
         <div id="logo">
           <?php if ($logo) { ?>
           <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
@@ -80,7 +86,9 @@
       </div>
       <div class="col-sm-5 hide"><?php echo $search; ?>
       </div>
-      <div class="col-sm-3"><?php echo $cart; ?></div>
+      <div class="col-sm-5"></div>
+      
+      <div class="col-sm-3" style="margin-top: 10px;"><?php echo $cart; ?></div>
     </div>
   </div>
 </header>
