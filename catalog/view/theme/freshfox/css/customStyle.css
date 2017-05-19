@@ -1,0 +1,144 @@
+.custom-Abt {
+    background-color: #252525;
+    color: #fff;
+}
+.custom-Abt-para{
+	text-align: left;
+}
+
+.custom-services, .page-no-padding{
+	padding: 0!important;
+}
+.buttonWrapper{
+    position: absolute;
+    left: 15%;
+    right: 27%;
+    bottom: 40px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+.subscribe-btn {
+    float: right;
+    background-color: rgba(26, 25, 25, 0.67)!important;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 5px!important;
+    border: 1px solid #2e1f1d;
+}
+
+.custom-story{
+
+	/*background-color: #333333;*/
+	color: #fff;
+}
+button.btn.btn-default.menu-btn {
+    width: 100%;
+    font-size: 20px;
+}
+.ourMenuBtn{
+	width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ourMenuBtn img{
+	width: 100%;
+}
+.mainHeaderBanner{
+	background-image: url(https://s3.amazonaws.com/uploads.hipchat.com/657725/4618225/wh96Y1PGrdCAfYR/Main-top-banner-resize.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+
+}
+#text-carousel-intro-section .page-header-wrapper img{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.ipadMenuView, .mobileMenuView{
+	display: none!important;
+}
+.desktopMenuView{
+	display: block!important;
+}
+div#month-btn_01 {
+    right: 36%;
+    bottom: -10px;
+}
+div#month-btn_02 {
+    right: 36%;
+    bottom: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+.desktopMenuView, .mobileMenuView{
+	display: none!important;
+}
+.ipadMenuView{
+	display: block!important;
+}
+.mainHeaderBanner{
+	background-image: url(../img/ipad_menu/ipad_banner.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	
+}
+.buttonWrapper {
+    position: absolute;    
+    right: 5%;
+    }
+.subscriptionsPlanBtnWrapper .subscribe-btn{
+	font-size: 12px;
+    padding: 5px 15px;
+}
+div#month-btn_01 {
+    bottom: -15px;
+}
+div#month-btn_02 {
+    bottom: 15px;
+}
+
+}
+
+
+@media only screen and (max-width: 480px){
+.testimonial {
+    padding: 10px 0;
+}
+.buttonWrapper {
+    position: absolute;    
+    right: 30%;
+    bottom: 5px;
+}
+.page-no-padding{
+	padding: 0!important;
+}
+.desktopMenuView, .ipadMenuView{
+	display: none!important;
+}
+.mobileMenuView{
+	display: block!important;
+}
+.mainHeaderBanner{
+	background-image: url(../img/mobile_menu/Mobile_banner.jpg);
+}
+#text-carousel-intro-section{
+	height: 519px;
+}
+
+.page-header-wrapper img{
+	margin: 0 auto;
+	width: 100%;
+}
+}
