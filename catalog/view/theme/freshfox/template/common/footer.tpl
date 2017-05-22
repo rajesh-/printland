@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    <div class="row">
+    <div class="row hide">
       <?php if ($informations) { ?>
       <div class="col-sm-3">
         <h5><?php echo $text_information; ?></h5>
@@ -38,8 +38,12 @@
         </ul>
       </div>
     </div>
-    <hr>
-    <p><?php echo $powered; ?></p>
+    
+    <p style="text-align: center; font-size: 14px;"><?php //echo $powered; ?>
+	
+	Copyright © 2017 - All rights Reserved | Truelytics EComm Pvt. Ltd
+	
+	</p>
   </div>
 </footer>
 
