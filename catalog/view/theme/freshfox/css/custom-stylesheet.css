@@ -10,3 +10,23 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 }
+
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a {
+    color: #23a1d1!important;
+    text-decoration: none!important;
+}
+div#accordion {
+    color: black;
+}
+#accordion h1, #accordion h2, #accordion h3, #accordion h4, #accordion h5, #accordion h6  {
+    color: black;
+}
+#content {
+
+    margin-top: 30px;
+}
+#cart .dropdown-menu {
+    background: #eee;
+    z-index: 1001;
+    color: black;
+}
