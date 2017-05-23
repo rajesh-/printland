@@ -468,7 +468,7 @@
                
                 resizeButton();
            });
-
+                console.log = function () {}
             function resizeButton() {
                 
                 setInterval(function() {
