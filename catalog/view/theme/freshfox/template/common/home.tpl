@@ -463,22 +463,32 @@
 
             var popUpDiv = "<div class='overlayPopupDiv'></div><div class='col-md-12 col-sm-12 innerOverlayPopupDiv'><div class='closeButton'>X</div><a href='index.php?route=product/product&product_id=51' target='_blank'><img src='catalog/view/theme/freshfox/img/desktop-pop-up.jpg' class='img-responsive desktopMenuView'><img src='catalog/view/theme/freshfox/img/ipad-72- pop-up.jpg' class='img-responsive ipadMenuView'><img src='catalog/view/theme/freshfox/img/Mobile-375-pop-up.jpg' class='img-responsive mobileMenuView'></a></div>"
            
-                $(".subScribe").on("click", function(){
-               $(".body").append(popUpDiv);
-               
-                resizeButton();
-           });
-                console.log = function () {}
-            function resizeButton() {
+                $(".body").append(popUpDiv);
                 
-                setInterval(function() {
+                $(".subScribe").on("click", function(){
+                $(".overlayPopupDiv").css("display", "block");
+                $(".innerOverlayPopupDiv").css("display", "block");
+                resizeButton();
+                });
+
+                function resizeButton() {
+                
+                if($(".innerOverlayPopupDiv img").is(':visible')){
+                
+
+                // setInterval(function() {
+                    
+
+
                  var leftPos = $(".innerOverlayPopupDiv img:visible").offset().left;
-                $( ".closeButton" ).css("margin-right", leftPos);
-               }, 100);
+                    $( ".closeButton" ).css("margin-right", leftPos);
+                    // }, 100);
+
                  $( window ).resize(function() {
                     leftPos = $(".innerOverlayPopupDiv img:visible").offset().left;
-                $( ".closeButton" ).css("margin-right", leftPos);
-                });
+                     $( ".closeButton" ).css("margin-right", leftPos);
+                    });
+                 }
             }
 
            $(".ourMenuBtnWrapper > .subscribe-btnSelf").hover(function(){
@@ -489,9 +499,8 @@
                             $('html, body').stop().animate({
                             scrollTop: topOfTheSubsciptionPlan
                             }, 1000);
-
-
-                            $(".body").append(popUpDiv);
+                            $(".overlayPopupDiv").css("display", "block");
+                            $(".innerOverlayPopupDiv").css("display", "block");
                             resizeButton();
                             
                     });
@@ -508,6 +517,7 @@
            });
 
            $(document).on("click", ".closeButton", function () {
+            leftPos= 0;
                 $(".overlayPopupDiv").hide();
                 $(".innerOverlayPopupDiv").hide();
 
