@@ -105,6 +105,7 @@ button.btn.btn-default.menu-btn {
     position: fixed;
     z-index: 11;
     transition: 0.5s;
+    display: none;
 }
 .innerOverlayPopupDiv {
     margin: 0 auto;
@@ -112,6 +113,7 @@ button.btn.btn-default.menu-btn {
     top: 15%;
     position: fixed;
     z-index: 12;
+    display: none;
 }
 .innerOverlayPopupDiv .closeButton {
     width: 20px;
