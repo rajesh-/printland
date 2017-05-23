@@ -20,6 +20,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Google Fonts  -->
+        <link rel="icon" href="catalog/view/theme/freshfox/img/Faviconnew.png" type="image/png" sizes="32x32">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
 
