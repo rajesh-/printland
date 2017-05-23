@@ -461,7 +461,7 @@
 
         $(document).ready(function(){
 
-            var popUpDiv = "<div class='overlayPopupDiv'></div><div class='col-md-12 col-sm-12 innerOverlayPopupDiv'><div class='closeButton'>X</div><a href='index.php?route=product/product&product_id=51'><img src='catalog/view/theme/freshfox/img/desktop-pop-up.jpg' class='img-responsive desktopMenuView'><img src='catalog/view/theme/freshfox/img/ipad-72- pop-up.jpg' class='img-responsive ipadMenuView'><img src='catalog/view/theme/freshfox/img/Mobile-375-pop-up.jpg' class='img-responsive mobileMenuView'></a></div>"
+            var popUpDiv = "<div class='overlayPopupDiv'></div><div class='col-md-12 col-sm-12 innerOverlayPopupDiv'><div class='closeButton'>X</div><a href='index.php?route=product/product&product_id=51' target='_blank'><img src='catalog/view/theme/freshfox/img/desktop-pop-up.jpg' class='img-responsive desktopMenuView'><img src='catalog/view/theme/freshfox/img/ipad-72- pop-up.jpg' class='img-responsive ipadMenuView'><img src='catalog/view/theme/freshfox/img/Mobile-375-pop-up.jpg' class='img-responsive mobileMenuView'></a></div>"
            
                 $(".subScribe").on("click", function(){
                $(".body").append(popUpDiv);
