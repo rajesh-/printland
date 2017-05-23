@@ -116,14 +116,15 @@ button.btn.btn-default.menu-btn {
 .innerOverlayPopupDiv .closeButton {
     width: 20px;
     height: 20px;
-    background-color: #fff;
+    background-color: #e35621;
     float: right;
+    color: #fff;
     display: inline-block;
     cursor: pointer;
     position: absolute;
     right: 0;
     top: 0;
-    margin-right: 15px;
+    margin-right: 198px;
     text-align: center;
     padding: 3px;
     font-weight: bold;
@@ -155,6 +156,9 @@ div#month-btn_03 {
 }
 .ipadMenuView{
 	display: block!important;
+}
+.innerOverlayPopupDiv {
+    top: 40%;
 }
 .mainHeaderBanner{
 	background-image: url(../img/ipad_menu/ipad_banner.jpg);
