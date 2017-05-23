@@ -461,13 +461,25 @@
 
         $(document).ready(function(){
 
-            var popUpDiv = "<div class='overlayPopupDiv'></div><div class='col-md-12 col-sm-12 innerOverlayPopupDiv'><div class='closeButton'>X</div><img src='catalog/view/theme/freshfox/img/desktop-pop-up.jpg' class='img-responsive desktopMenuView'><img src='catalog/view/theme/freshfox/img/ipad_menu/ipad-72- pop-up.jpg' class='img-responsive ipadMenuView'><img src='catalog/view/theme/freshfox/img/mobile_menu/Mobile-375-pop-up.jpg' class='img-responsive mobileMenuView'></div>"
+            var popUpDiv = "<div class='overlayPopupDiv'></div><div class='col-md-12 col-sm-12 innerOverlayPopupDiv'><div class='closeButton'>X</div><img src='catalog/view/theme/freshfox/img/desktop-pop-up.jpg' class='img-responsive desktopMenuView'><img src='catalog/view/theme/freshfox/img/ipad-72- pop-up.jpg' class='img-responsive ipadMenuView'><img src='catalog/view/theme/freshfox/img/Mobile-375-pop-up.jpg' class='img-responsive mobileMenuView'></div>"
            
-            $(".subScribe").on("click", function(){
+                $(".subScribe").on("click", function(){
                $(".body").append(popUpDiv);
-
-                
+               
+                resizeButton();
            });
+
+            function resizeButton() {
+                
+                setInterval(function() {
+                 var leftPos = $(".innerOverlayPopupDiv img:visible").offset().left;
+                $( ".closeButton" ).css("margin-right", leftPos);
+               }, 100);
+                 $( window ).resize(function() {
+                    leftPos = $(".innerOverlayPopupDiv img:visible").offset().left;
+                $( ".closeButton" ).css("margin-right", leftPos);
+                });
+            }
 
            $(".ourMenuBtnWrapper > .subscribe-btnSelf").hover(function(){
 
@@ -480,6 +492,7 @@
 
 
                             $(".body").append(popUpDiv);
+                            resizeButton();
                             
                     });
 
