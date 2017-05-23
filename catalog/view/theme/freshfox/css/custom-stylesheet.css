@@ -18,9 +18,13 @@ h1, h2, h3, h4, h5, h6 {
 div#accordion {
     color: black;
 }
-#accordion h1, #accordion h2, #accordion h3, #accordion h4, #accordion h5, #accordion h6  {
+#accordion h1, #accordion h2, #accordion h3, #accordion h4, #accordion h5, #accordion h6{
     color: black;
 }
+.account-login h1, .account-login h2, .account-login h3, .account-login h4, .account-login h5,  .account-login h6, .account-login p {
+    color: black;
+}
+
 #content {
 
     margin-top: 30px;
@@ -30,3 +34,28 @@ div#accordion {
     z-index: 1001;
     color: black;
 }
+legend {
+
+color: #fff;
+
+}
+
+
+.checkout-checkout legend {
+
+color: #000;
+
+}
+
+.thumbnail {
+
+background-color: #000!important;
+
+	}
+
+.thumbnails,.nav-tabs{
+
+	display: none!important;
+}
+
+  

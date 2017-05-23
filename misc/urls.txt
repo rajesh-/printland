@@ -1,0 +1,7 @@
+http://localhost/freshfox/index.php?route=product/product&product_id=50
+http://192.168.1.226/freshfox/index.php?route=product/product&product_id=50
+
+
+
+http://localhost/freshfox/index.php?route=product/product&product_id=51
+

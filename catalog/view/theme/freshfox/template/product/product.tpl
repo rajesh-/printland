@@ -589,30 +589,42 @@ $(document).ready(function() {
 			enabled:true
 		}
 	});
-	var droplist ="";
+	// var droplist ="";
 	//NeoScript
 	$("#product .form-group:eq(0) input").prop('checked', 'checked');
 	$("#product .form-group:eq(1) .radio").hide();
-	droplist+="<select class='customDropList form-control'>";
+  // $("#product .form-group:eq(0) input").parents(".radio").hide();
+  // var textNodeValue = $("#product .form-group:eq(0) input")[0].nextSibling.nodeValue;
+  // if(textNodeValue.indexOf("Gym Bag") >= 0){
+  //   $("#product .form-group:eq(0) .radio").after("<img src='catalog/view/theme/freshfox/img/product-offer-gym-bag.png' class='img-responsive' />");
+  // }else if(textNodeValue.indexOf("Sipper Bottle") >= 0){
+  //   $("#product .form-group:eq(0) .radio").after("<img src='catalog/view/theme/freshfox/img/product-offer-sipper-bottle.png' class='img-responsive' />");
+  // }
 
-	$("#product .form-group:eq(1) .radio").each(function(index){
-			console.log("index", $( this ).text());
-			droplist+="<option>" + $( this ).text() + "</option>";
 
-	});
-	droplist+="</select>";
+  $("#tab-description p img").addClass("img-responsive");
+  
+
+	// droplist+="<select class='customDropList form-control'>";
+
+	// $("#product .form-group:eq(1) .radio").each(function(index){
+	// 		console.log("index", $( this ).text());
+	// 		droplist+="<option>" + $( this ).text() + "</option>";
+
+	// });
+	// droplist+="</select>";
 	
 
-	$("#product .form-group:eq(1)").append(droplist);
-	$(document).on('click', '.customDropList', function(e) {
+	// $("#product .form-group:eq(1)").append(droplist);
+	// $(document).on('click', '.customDropList', function(e) {
 
-		//do whatever
-		var singleValues = $(".customDropList")[0].selectedIndex
+	// 	//do whatever
+	// 	var singleValues = $(".customDropList")[0].selectedIndex
 	
 
-		$("#product .form-group:eq(1) .radio:eq("+ singleValues +") input").prop('checked', 'checked');
+	// 	$("#product .form-group:eq(1) .radio:eq("+ singleValues +") input").prop('checked', 'checked');
 
-		});
+	// 	});
 
 	//NeoEnd
 });

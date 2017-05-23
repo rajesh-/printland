@@ -84,7 +84,7 @@
                             <li><a class="page-scroll" href="#services-section">Our Story</a></li>
                             <li><a class="page-scroll" href="#btn-section-for-menu">Our Menu</a></li>
                             <li><a class="page-scroll" href="#portfolio-section">How it Works</a></li>                            
-                            <li><a class="page-scroll" href="#counter-section">Subscriptions</a></li>
+                            <li><a class="page-scroll subScribe" href="#counter-section">Subscriptions</a></li>
                             <li><a class="page-scroll" href="#contact-section">Contact</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -122,7 +122,7 @@
                         <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
                             <h2 style="margin: 20px 0;text-align: left;">About</h2>
                             <!-- <div class="devider"></div> -->
-                             <p class="custom-Abt-para"> <strong>Fresh Fox</strong> is an initiative to make healthy, ready-to-eat meals accessible and irresistible. Breakfast, as we all know, is the most important meal of the day. It not only provides much-need nutrition, it keeps you energetic and improves cognitive function.</p>
+                             <p class="custom-Abt-para"> <strong>Fresh Fox</strong> is an initiative to make healthy, ready-to-eat meals accessible and irresistible. Breakfast, as we all know, is the most important meal of the day. It not only provides much-needed nutrition, it keeps you energetic and improves cognitive function.</p>
                                 <br>
                             <p class="custom-Abt-para"> In today's fast-paced world, people often skip the first meal and end up having high-sugar, calorie-high snacks in the middle of the morning. We understand that you do not have the time or the energy, often, to make a healthy breakfast every morning. That's why we're here to help you change!</p>
                                 <br>
@@ -169,7 +169,7 @@
                             <h5 style="margin: 10px 0;text-align: left;">A Different Love Story</h5>
                              <p class="custom-Abt-para">Once upon a time, there was a hardworking, office-going, corporate woman. She was doing a million things at a time. As a child, she was told to learn to cook but she always found it too boring. With her hectic schedule, she did not have the time to cook every morning. She always ended up having some biscuits and tea, a couple of times till lunch. This went on until she discovered true love.</p>
                                 <br>
-                            <p class="custom-Abt-para">Similar to her, there was a workaholic, IT guy who had to be at the office before 9, every morning. He was away from home, living with friends who woke up way after he did. Apart from not having the time, he had no energy to cook himself breakfast. He survived on chips and nutritional bars until lunch time. He went on with this unhealthy lifestyle until he met the love of his life.</p>
+                            <p class="custom-Abt-para">Similar to her, there was a workaholic, IT guy who had to be at the office before 9, every morning. He was away from home, living with friends who woke up way in he did. Apart from not having the time, he had no energy to cook himself breakfast. He survived on chips and nutritional bars until lunch time. He went on with this unhealthy lifestyle until he met the love of his life.</p>
                                 <br>
                             <p class="custom-Abt-para">Your typical love story would mean they met and started eating cereal or hired a good cook. But these two busy people had no time to meet. By love, we mean they discovered healthy breakfasts that got them ready and pumped up for the day. They said goodbye to junk food and fell in love with good food and the fitter, healthier versions of themselves.</p>
                             <br>
@@ -200,7 +200,7 @@
                         <!-- <div class="page-header text-center wow fadeInUp" data-wow-delay="0.3s">
                             <h4>Our Menu</h4>
                         </div> -->
-                        <div class="buttonWrapper ourMenuBtnWrapper"><button type="button" class="btn btn-default subscribe-btn">SUBSCRIBE</button></div>
+                        <div class="buttonWrapperSelf ourMenuBtnWrapper"><button type="button" class="btn btn-default subscribe-btnSelf">SUBSCRIBE</button></div>
                     <!-- </div> -->
 
                 </div>
@@ -250,17 +250,24 @@
 
 						<div class="row">
 
-							<div class="fact text-center col-md-6 col-sm-6">
+							<div class="fact text-center col-md-4 col-sm-4">
 								<img src="catalog/view/theme/freshfox/img/a_26.png" class="img-responsive">
                                 <div id="month-btn_01" class="buttonWrapper subscriptionsPlanBtnWrapper"><a href="index.php?route=product/product&product_id=50" target="_blank"><button type="button" class="btn btn-default subscribe-btn">SUBSCRIBE</button></a></div>
 							</div>
 
-							<div class="fact text-center col-md-6 col-sm-6">
+							<div class="fact text-center col-md-4 col-sm-4">
 								<div class="fact-inner">
 									<img src="catalog/view/theme/freshfox/img/a_27.png" class="img-responsive">
                                     <div id="month-btn_02" class="buttonWrapper subscriptionsPlanBtnWrapper"><a href="index.php?route=product/product&product_id=51" target="_blank"><button type="button" class="btn btn-default subscribe-btn">SUBSCRIBE</button></a></div>
 								</div>
 							</div>
+
+                            <div class="fact text-center col-md-4 col-sm-4">
+                                <div class="fact-inner">
+                                    <img src="catalog/view/theme/freshfox/img/Plan-3-month.png" class="img-responsive">
+                                    <div id="month-btn_03" class="buttonWrapper subscriptionsPlanBtnWrapper"><a href="index.php?route=product/product&product_id=52" target="_blank"><button type="button" class="btn btn-default subscribe-btn">SUBSCRIBE</button></a></div>
+                                </div>
+                            </div>
 
 							
 
@@ -453,23 +460,45 @@
 
 
         $(document).ready(function(){
+
+            var popUpDiv = "<div class='overlayPopupDiv'></div><div class='col-md-12 col-sm-12 innerOverlayPopupDiv'><div class='closeButton'>X</div><img src='catalog/view/theme/freshfox/img/desktop-pop-up.jpg' class='img-responsive desktopMenuView'><img src='catalog/view/theme/freshfox/img/ipad_menu/ipad-72- pop-up.jpg' class='img-responsive ipadMenuView'><img src='catalog/view/theme/freshfox/img/mobile_menu/Mobile-375-pop-up.jpg' class='img-responsive mobileMenuView'></div>"
            
-           $(".ourMenuBtnWrapper > .subscribe-btn").hover(function(){
+            $(".subScribe").on("click", function(){
+               $(".body").append(popUpDiv);
+
+                
+           });
+
+           $(".ourMenuBtnWrapper > .subscribe-btnSelf").hover(function(){
 
                  var topOfTheSubsciptionPlan = $("#counter-section").offset().top; 
                     console.log(">>", topOfTheSubsciptionPlan)
-                    $(".ourMenuBtnWrapper > .subscribe-btn").click(function(){
+                    $(".ourMenuBtnWrapper > .subscribe-btnSelf").click(function(){
                             $('html, body').stop().animate({
                             scrollTop: topOfTheSubsciptionPlan
                             }, 1000);
+
+
+                            $(".body").append(popUpDiv);
+                            
                     });
+
+
            });
+
+
 
            $(".menu-btn").on("click", function(){
                 $("#testimonial-section").slideToggle();
 
                 
-           })
+           });
+
+           $(document).on("click", ".closeButton", function () {
+                $(".overlayPopupDiv").hide();
+                $(".innerOverlayPopupDiv").hide();
+
+           });
 
 
            // setInterval(function(){ 

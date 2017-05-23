@@ -1,0 +1,1 @@
+2017-05-22 10:41:04 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp64\www\freshfox\system\library\mail.php on line 158
