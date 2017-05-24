@@ -338,8 +338,8 @@
 			                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; Pimple Gurav, Pune 411061.</li>
 			                            <li><i class="fa fa-phone"></i>&nbsp; +91 9029786344</li>
 			                            <!-- <li><i class="fa fa-print"></i>&nbsp; 1 -234 -456 -7890</li> -->
-			                            <li><i class="fa fa-envelope"></i> support@freshfox.in</li>
-			                            <!-- <li><i class="fa fa-skype"></i> Unika-Design</li> -->
+			                            <li><i class="fa fa-envelope"></i> &nbsp;support@freshfox.in</li>
+			                            <li><a href="https://www.facebook.com/Freshfox-2291991711026928/" target="_blank" style="color: white;text-decoration: none;"><img src="catalog/view/theme/freshfox/img/facebook.png" width="14px;"> &nbsp;&nbsp;Join Us</a></li>
 			                        </ul>
                                 </div>
                             </div>
