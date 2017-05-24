@@ -15,12 +15,12 @@
 		<meta name="description" content="Unika - Responsive One Page HTML5 Template">
 		<meta name="keywords" content="HTML5, Bootsrtrap, One Page, Responsive, Template, Portfolio" />
 		<meta name="author" content="imransdesign.com">
+        <meta name="google-site-verification" content="lURdVJNMWwFyReWUQNR-naiqwlI7no945m9zDAeLuKA" />
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Google Fonts  -->
-        <link rel="icon" href="catalog/view/theme/freshfox/img/Faviconnew.png" type="image/png" sizes="32x32">
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
 
@@ -321,7 +321,7 @@
                         <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
                             <h2 style="margin: 20px 0;text-align: left;">Contacts</h2>
                             <!-- <div class="devider"></div> -->
-                            <p class="subtitle">All to contact us</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -335,10 +335,10 @@
                                 <div class="contact-info">
                                     <h4>Our Address</h4>
                                     <ul class="contact-address">
-			                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; 401, Yash Building,<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Shrushti Chowk,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pimple Gurav, Pune 411061.</li>
+			                            <li><i class="fa fa-map-marker fa-lg"></i>&nbsp; Pimple Gurav, Pune 411061.</li>
 			                            <li><i class="fa fa-phone"></i>&nbsp; +91 9029786344</li>
 			                            <!-- <li><i class="fa fa-print"></i>&nbsp; 1 -234 -456 -7890</li> -->
-			                            <li><i class="fa fa-envelope"></i> salessupport@freshfox.in</li>
+			                            <li><i class="fa fa-envelope"></i> support@freshfox.in</li>
 			                            <!-- <li><i class="fa fa-skype"></i> Unika-Design</li> -->
 			                        </ul>
                                 </div>
@@ -425,7 +425,7 @@
                 
                 <div class="footer">
                     <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
-                        <p class="copyright">Copyright &copy; 2017 - All rights Reserved | Truelytics EComm Pvt. Ltd</p>
+                        <p class="copyright">Copyright &copy; 2017 - All rights Reserved | Freshfox.in</p>
                     </div>
                 </div>
 
