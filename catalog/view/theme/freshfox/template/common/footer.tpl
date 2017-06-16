@@ -41,7 +41,7 @@
     
     <p style="text-align: center; font-size: 14px;"><?php //echo $powered; ?>
 	
-	Copyright © 2017 - All rights Reserved | Truelytics EComm Pvt. Ltd
+	Copyright © 2017 - All rights Reserved | Freshfox.in
 	
 	</p>
   </div>

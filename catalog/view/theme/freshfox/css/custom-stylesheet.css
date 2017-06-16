@@ -24,7 +24,12 @@ div#accordion {
 .account-login h1, .account-login h2, .account-login h3, .account-login h4, .account-login h5,  .account-login h6, .account-login p {
     color: black;
 }
-
+.modal-dialog h4.modal-title {
+    color: black;
+}
+.modal-dialog p {
+    color: black;
+}
 #content {
 
     margin-top: 30px;

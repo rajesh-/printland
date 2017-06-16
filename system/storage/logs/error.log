@@ -1,1 +1,199 @@
 2017-05-22 10:41:04 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp64\www\freshfox\system\library\mail.php on line 158
+2017-05-25 7:37:01 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.country.admin.1495701421): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:01 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.language.1495701421): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:01 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.currency.1495701421): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:01 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.length_class.1.1495701421): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:01 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.weight_class.1.1495701421): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:01 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.information.1.1495701421): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:01 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.order_status.1.1495701421): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:01 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.return_status.1.1495701421): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:01 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.store.1495701421): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:01 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.order_status.1.1495701421): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:01 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:01 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:01 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:01 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:03 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.zone.99.1495701423): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:03 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:03 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:03 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:03 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:03 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:05 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.country.admin.1495701425): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:05 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:05 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.language.1495701425): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:05 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:05 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.currency.1495701425): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:05 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:05 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.length_class.1.1495701425): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:05 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:05 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.weight_class.1.1495701425): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:05 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:05 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.information.1.1495701425): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:05 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:05 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.order_status.1.1495701425): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:05 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:05 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.return_status.1.1495701425): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:05 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:05 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.store.1495701425): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:05 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:05 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.order_status.1.1495701425): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:05 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:05 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:05 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:05 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:37:06 - PHP Warning:  fopen(/home/rajvenkat70/public_html/system/admin/storage/cache/cache.zone.99.1495701426): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:37:06 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:37:06 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:37:06 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:37:06 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:37:06 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:30 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.country.admin.1495701630): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:30 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.language.1495701630): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:30 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.currency.1495701630): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:30 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.length_class.1.1495701630): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:30 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.weight_class.1.1495701630): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:30 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.information.1.1495701630): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:30 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.order_status.1.1495701630): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:30 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.return_status.1.1495701630): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:30 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.store.1495701630): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:30 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.order_status.1.1495701630): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
+2017-05-25 7:40:32 - PHP Warning:  fopen(/home/rajvenkat70/public_html/admin/system/storage/cache/cache.zone.99.1495701632): failed to open stream: No such file or directory in /home/rajvenkat70/public_html/system/library/cache/file.php on line 49
+2017-05-25 7:40:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 51
+2017-05-25 7:40:32 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 53
+2017-05-25 7:40:32 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 55
+2017-05-25 7:40:32 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 57
+2017-05-25 7:40:32 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rajvenkat70/public_html/system/library/cache/file.php on line 59
