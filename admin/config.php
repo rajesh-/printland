@@ -1,32 +1,31 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://freshfox.in/admin/');
-define('HTTP_CATALOG', 'http://freshfox.in/freshfox/');
+define('HTTP_SERVER', 'http://localhost/freshfox/admin/');
+define('HTTP_CATALOG', 'http://localhost/freshfox/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://freshfox.in/admin/');
-define('HTTPS_CATALOG', 'http://freshfox.in/');
+define('HTTPS_SERVER', 'http://localhost/freshfox/admin/');
+define('HTTPS_CATALOG', 'http://localhost/freshfox/');
 
 // DIR
-define('DIR_APPLICATION', '/home/rajvenkat70/public_html/admin/');
-define('DIR_SYSTEM', '/home/rajvenkat70/public_html/system/');
-define('DIR_IMAGE', '/home/rajvenkat70/public_html/image/');
-define('DIR_LANGUAGE', '/home/rajvenkat70/public_html/admin/language/');
-define('DIR_TEMPLATE', '/home/rajvenkat70/public_html/admin/view/template/');
-define('DIR_CONFIG', '/home/rajvenkat70/public_html/system/config/');
-define('DIR_CACHE', '/home/rajvenkat70/public_html/system/storage/cache/');
-define('DIR_DOWNLOAD', '/home/rajvenkat70/public_html/system/storage/download/');
-define('DIR_LOGS', '/home/rajvenkat70/public_html/system/storage/logs/');
-define('DIR_MODIFICATION', '/home/rajvenkat70/public_html/system/storage/modification/');
-define('DIR_UPLOAD', '/home/rajvenkat70/public_html/system/storage/upload/');
-define('DIR_CATALOG', '/home/rajvenkat70/public_html/catalog/');
+define('DIR_APPLICATION', 'C:/wamp64/www/freshfox/admin/');
+define('DIR_SYSTEM', 'C:/wamp64/www/freshfox/system/');
+define('DIR_IMAGE', 'C:/wamp64/www/freshfox/image/');
+define('DIR_LANGUAGE', 'C:/wamp64/www/freshfox/admin/language/');
+define('DIR_TEMPLATE', 'C:/wamp64/www/freshfox/admin/view/template/');
+define('DIR_CONFIG', 'C:/wamp64/www/freshfox/system/config/');
+define('DIR_CACHE', 'C:/wamp64/www/freshfox/system/storage/cache/');
+define('DIR_DOWNLOAD', 'C:/wamp64/www/freshfox/system/storage/download/');
+define('DIR_LOGS', 'C:/wamp64/www/freshfox/system/storage/logs/');
+define('DIR_MODIFICATION', 'C:/wamp64/www/freshfox/system/storage/modification/');
+define('DIR_UPLOAD', 'C:/wamp64/www/freshfox/system/storage/upload/');
+define('DIR_CATALOG', 'C:/wamp64/www/freshfox/catalog/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'i3583478_wp1');
-//define('DB_PASSWORD', 'Pass@1234');
-define('DB_PASSWORD', 'U(fCuDdB]pr3v]dEX3*57&(3');
-define('DB_DATABASE', 'i3583478_wp1');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'freshfox');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'ffox_');
